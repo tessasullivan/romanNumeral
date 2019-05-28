@@ -1,7 +1,7 @@
 {
-  "name": "ping-pong",
+  "name": "romannumeral",
   "version": "1.0.0",
-  "description": "Ping pong counter",
+  "description": "Calculate Roman numeral for given input",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/karma/bin/karma start karma.conf.js",
