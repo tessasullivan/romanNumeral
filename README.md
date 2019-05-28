@@ -45,12 +45,6 @@ When the user enters any of the listed numbers, the program will return the corr
 
 ## Known Bugs / Limitations
 
-```javascript
-  romanNumeral.prototype.calcRomanNumeral = function () {
-  var splitNumber = this.input.split("");
-  var onesPlace = splitNumber[splitNumber.length - 1];
-  ```
-
 
 ## Support and contact details
 
