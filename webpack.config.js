@@ -17,11 +17,12 @@ module.exports = {
     new UglifyJsPlugin({ sourceMap: true }),
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-      title: 'Ping Pong',
+      title: 'Roman Numeral',
       template: './src/index.html',
       inject: 'body'
     })
   ],
+  mode: 'development',
   module: {
     rules: [
       {
